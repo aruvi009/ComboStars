@@ -22,7 +22,11 @@ ComboStars requires that you specify a path to the image file that defines the s
 
 If you use a custom star file, you may also need to specify the width and height of the star image. These, respectively, are passed as integers to ```starWidth``` and ```starHeight```. By default, ```starWidth``` is 16 and ```starHeight``` is 15.
 
-Finally, setting ```clickMiddle``` to false will leave no stars selected by default, and leaving it to the default value of true will click the middle star.
+Setting ```clickMiddle``` to false will leave no stars selected by default, and leaving it to the default value of true will click the middle star.
+
+Setting ```activeNum``` with integer value will preset stars as highlighted.
+
+Setting ```enableRate``` with true/false will enable/disable rating and mouse functions on the stars.
 
 ##Select Value
 
@@ -31,3 +35,5 @@ When a user clicks on the nth star, the value of the nth ```<option>``` is assig
 ##Events
 
 ComboStars does not forward any events from the stars to the select except for ```change```.
+
+Other than that, we have mouse hover functions currently enabled for the stars.
