@@ -22,7 +22,7 @@ ComboStars requires that you specify a path to the image file that defines the s
 
 If you use a custom star file, you may also need to specify the width and height of the star image. These, respectively, are passed as integers to ```starWidth``` and ```starHeight```. By default, ```starWidth``` is 16 and ```starHeight``` is 15.
 
-Setting ```clickMiddle``` to false will leave no stars selected by default, and leaving it to the default value of true will click the middle star.
+Setting ```clickMiddle``` to false will leave no stars selected by default, and leaving it to the default value of true will select the middle star.
 
 Setting ```activeNum``` with integer value will preset stars as highlighted.
 
